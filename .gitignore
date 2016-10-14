@@ -1,0 +1,10 @@
+*.exe
+*.test
+*.prof
+vendor
+.glide
+*.lock
+*.upx
+*.db
+*.txt
+*.log
