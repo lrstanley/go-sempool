@@ -4,7 +4,8 @@
 - Lightweight. Does not add additional overhead.
 - Uses go-routines, and through an easy interface.
 
+[![Build Status](https://travis-ci.org/Liamraystanley/go-sempool.svg?branch=master)](https://travis-ci.org/Liamraystanley/go-sempool)
 [![GitHub Issues](https://img.shields.io/github/issues/Liamraystanley/go-sempool.svg)](https://github.com/Liamraystanley/go-sempool/issues)
 [![GoDoc](https://godoc.org/github.com/Liamraystanley/go-sempool?status.png)](https://godoc.org/github.com/Liamraystanley/go-sempool)
 [![codebeat badge](https://codebeat.co/badges/9899ad3d-23da-4f6b-84e1-78351e86e090)](https://codebeat.co/projects/github-com-liamraystanley-go-sempool)
-[![Go Report Card](https://goreportcard.com/badge/github.com/Liamraystanley/go-sempool)](https://goreportcard.com/report/github.com/Liamraystanley/marill)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Liamraystanley/go-sempool)](https://goreportcard.com/report/github.com/Liamraystanley/go-sempool)
