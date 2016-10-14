@@ -17,7 +17,6 @@
 // 	}
 //
 // 	pool.Wait()
-
 package sempool // import "github.com/Liamraystanley/go-sempool"
 
 // Pool represents a go-routine worker pool. This does NOT manage the
