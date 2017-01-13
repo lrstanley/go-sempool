@@ -58,6 +58,20 @@ func (p *Pool) Wait() {
 	p.done = true
 }
 
+// WaitChan returns a channel that can be used to wait for a response to a
+// channel.
+func (p *Pool) WaitChan() chan struct{} {
+	notify := make(chan struct{}, 1)
+
+	go func() {
+		p.Wait()
+
+		notify <- struct{}{}
+	}()
+
+	return notify
+}
+
 // New returns a new Pool{} method
 func New(count int) Pool {
 	if count < 1 {
