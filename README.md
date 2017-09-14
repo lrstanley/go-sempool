@@ -1,12 +1,10 @@
-## go-sempool -- Super simple semaphore go-routine worker pool.
+# go-sempool [![status](https://travis-ci.org/lrstanley/go-sempool.svg?branch=master)](https://travis-ci.org/lrstanley/go-sempool) [![godoc](https://godoc.org/github.com/lrstanley/go-sempool?status.png)](https://godoc.org/github.com/lrstanley/go-sempool) [![goreport](https://goreportcard.com/badge/github.com/lrstanley/go-sempool)](https://goreportcard.com/report/github.com/lrstanley/go-sempool)
+
+go-sempool is a simple semaphore go-routine worker pool for Go.
 
 - Very basic. Does not attempt to force you to use workers in a specific way.
 - Lightweight. Does not add additional overhead.
 - Uses go-routines, and through an easy interface.
-
-[![status](https://travis-ci.org/lrstanley/go-sempool.svg?branch=master)](https://travis-ci.org/lrstanley/go-sempool)
-[![godoc](https://godoc.org/github.com/lrstanley/go-sempool?status.png)](https://godoc.org/github.com/lrstanley/go-sempool)
-[![goreport](https://goreportcard.com/badge/github.com/lrstanley/go-sempool)](https://goreportcard.com/report/github.com/lrstanley/go-sempool)
 
 ## Contributing
 
