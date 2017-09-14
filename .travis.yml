@@ -1,10 +1,8 @@
 language: go
 go:
-- 1.6.3
-- 1.7.1
 - tip
 script:
-- go test
+- go test -v -timeout 1m -cpu 1,2,4 -count 4
 - go tool vet -v -all .
 branches:
   only:
@@ -18,4 +16,4 @@ notifications:
       %{build_url}"
     on_success: change
     on_failure: change
-    skip_join: true
+    skip_join: false
