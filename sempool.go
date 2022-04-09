@@ -1,3 +1,7 @@
+// Copyright (c) Liam Stanley <me@liamstanley.io>. All rights reserved. Use
+// of this source code is governed by the MIT license that can be found in
+// the LICENSE file.
+
 // Package sempool provides a very lightweight goroutine work pool
 //
 // Here is an example, which creates no more than 5 go-routines at a time. Once
