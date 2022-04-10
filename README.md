@@ -2,13 +2,21 @@
 <!-- do not edit anything in this "template" block, its auto-generated -->
 <p align="center">go-sempool -- go-sempool is a super simple semaphore go-routine worker pool</p>
 <p align="center">
+  <a href="https://github.com/lrstanley/go-sempool/tags">
+    <img alt="Latest Semver Tag" src="https://img.shields.io/github/v/tag/lrstanley/go-sempool?style=flat-square">
+  </a>
+  <a href="https://github.com/lrstanley/go-sempool/commits/master">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/lrstanley/go-sempool?style=flat-square">
+  </a>
 
 
   <a href="https://github.com/lrstanley/go-sempool/actions?query=workflow%3Atest+event%3Apush">
     <img alt="GitHub Workflow Status (test @ master)" src="https://img.shields.io/github/workflow/status/lrstanley/go-sempool/test/master?label=test&style=flat-square&event=push">
   </a>
 
-  <img alt="Code Coverage" src="https://img.shields.io/codecov/c/github/lrstanley/go-sempool/master?style=flat-square">
+  <a href="https://codecov.io/gh/lrstanley/go-sempool">
+    <img alt="Code Coverage" src="https://img.shields.io/codecov/c/github/lrstanley/go-sempool/master?style=flat-square">
+  </a>
 
   <a href="https://pkg.go.dev/github.com/lrstanley/go-sempool">
     <img alt="Go Documentation" src="https://pkg.go.dev/badge/github.com/lrstanley/go-sempool?style=flat-square">
@@ -16,17 +24,19 @@
   <a href="https://goreportcard.com/report/github.com/lrstanley/go-sempool">
     <img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/lrstanley/go-sempool?style=flat-square">
   </a>
-  <img alt="Bug reports" src="https://img.shields.io/github/issues/lrstanley/go-sempool/bug?label=issues&style=flat-square">
-  <img alt="Feature requests" src="https://img.shields.io/github/issues/lrstanley/go-sempool/enhancement?label=feature%20requests&style=flat-square">
+</p>
+<p align="center">
+  <a href="https://github.com/lrstanley/go-sempool/issues?q=is:open+is:issue+label:bug">
+    <img alt="Bug reports" src="https://img.shields.io/github/issues/lrstanley/go-sempool/bug?label=issues&style=flat-square">
+  </a>
+  <a href="https://github.com/lrstanley/go-sempool/issues?q=is:open+is:issue+label:enhancement">
+    <img alt="Feature requests" src="https://img.shields.io/github/issues/lrstanley/go-sempool/enhancement?label=feature%20requests&style=flat-square">
+  </a>
   <a href="https://github.com/lrstanley/go-sempool/pulls">
     <img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/lrstanley/go-sempool?style=flat-square">
   </a>
-  <a href="https://github.com/lrstanley/go-sempool/tags">
-    <img alt="Latest Semver Tag" src="https://img.shields.io/github/v/tag/lrstanley/go-sempool?style=flat-square">
-  </a>
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/lrstanley/go-sempool?style=flat-square">
   <a href="https://github.com/lrstanley/go-sempool/discussions/new?category=q-a">
-    <img alt="Ask a Question" src="https://img.shields.io/badge/discussions-ask_a_question!-green?style=flat-square">
+    <img alt="Ask a Question" src="https://img.shields.io/badge/discussions-ask_a_question!-blue?style=flat-square">
   </a>
   <a href="https://liam.sh/chat"><img src="https://img.shields.io/badge/discord-bytecord-blue.svg?style=flat-square" alt="Discord Chat"></a>
 </p>
@@ -61,10 +71,10 @@ $ go get -u github.com/lrstanley/go-sempool@latest
 <!-- do not edit anything in this "template" block, its auto-generated -->
 ## :raising_hand_man: Support & Assistance
 
-   * :heart: Please review the [Code of Conduct](CODE_OF_CONDUCT.md) for
+   * :heart: Please review the [Code of Conduct](.github/CODE_OF_CONDUCT.md) for
      guidelines on ensuring everyone has the best experience interacting with
      the community.
-   * :raising_hand_man: Take a look at the [support](SUPPORT.md) document on
+   * :raising_hand_man: Take a look at the [support](.github/SUPPORT.md) document on
      guidelines for tips on how to ask the right questions.
    * :lady_beetle: For all features/bugs/issues/questions/etc, [head over here](https://github.com/lrstanley/go-sempool/issues/new/choose).
 <!-- template:end:support -->
