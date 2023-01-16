@@ -1,3 +1,9 @@
+# This project has been archived.
+
+Please use something like [github.com/sourcegraph/conc](https://github.com/sourcegraph/conc) instead.
+
+--------------------------------------
+
 <!-- template:begin:header -->
 <!-- do not edit anything in this "template" block, its auto-generated -->
 <p align="center">go-sempool -- go-sempool is a super simple semaphore go-routine worker pool</p>
